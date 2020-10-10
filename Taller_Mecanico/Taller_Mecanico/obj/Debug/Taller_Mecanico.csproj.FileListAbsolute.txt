@@ -1,0 +1,14 @@
+C:\Users\filos\OneDrive\Escritorio\Programacion de base de datos\Taller_Mecanico\Taller_Mecanico\bin\Debug\Taller_Mecanico.exe.config
+C:\Users\filos\OneDrive\Escritorio\Programacion de base de datos\Taller_Mecanico\Taller_Mecanico\bin\Debug\Taller_Mecanico.exe
+C:\Users\filos\OneDrive\Escritorio\Programacion de base de datos\Taller_Mecanico\Taller_Mecanico\bin\Debug\Taller_Mecanico.pdb
+C:\Users\filos\OneDrive\Escritorio\Programacion de base de datos\Taller_Mecanico\Taller_Mecanico\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\filos\OneDrive\Escritorio\Programacion de base de datos\Taller_Mecanico\Taller_Mecanico\bin\Debug\Klik.Windows.Forms.EntryLib.V2.2005.dll
+C:\Users\filos\OneDrive\Escritorio\Programacion de base de datos\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.csprojAssemblyReference.cache
+C:\Users\filos\OneDrive\Escritorio\Programacion de base de datos\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.Frm_Login.resources
+C:\Users\filos\OneDrive\Escritorio\Programacion de base de datos\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.Properties.Resources.resources
+C:\Users\filos\OneDrive\Escritorio\Programacion de base de datos\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.csproj.GenerateResource.cache
+C:\Users\filos\OneDrive\Escritorio\Programacion de base de datos\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.exe.licenses
+C:\Users\filos\OneDrive\Escritorio\Programacion de base de datos\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.csproj.CoreCompileInputs.cache
+C:\Users\filos\OneDrive\Escritorio\Programacion de base de datos\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.csproj.CopyComplete
+C:\Users\filos\OneDrive\Escritorio\Programacion de base de datos\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.exe
+C:\Users\filos\OneDrive\Escritorio\Programacion de base de datos\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.pdb
