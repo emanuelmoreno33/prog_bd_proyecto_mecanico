@@ -40,6 +40,7 @@
       <HintPath>..\..\..\HuellaDigital\MicroSisPlantilla\Sln_MicroSisPlantilla\MicroSisPlani\bin\Debug\Klik.Windows.Forms.EntryLib.V2.2005.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=8.0.21.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
@@ -55,16 +56,75 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="agregarcliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agregarcliente.Designer.cs">
+      <DependentUpon>agregarcliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crearinsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crearinsumos.Designer.cs">
+      <DependentUpon>crearinsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crearpedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crearpedido.Designer.cs">
+      <DependentUpon>crearpedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crearprooveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crearprooveedor.Designer.cs">
+      <DependentUpon>crearprooveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crearusuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crearusuarios.Designer.cs">
+      <DependentUpon>crearusuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_Login.Designer.cs">
       <DependentUpon>Frm_Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tallermecanicoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tallermecanicoDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="agregarcliente.resx">
+      <DependentUpon>agregarcliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crearinsumos.resx">
+      <DependentUpon>crearinsumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crearpedido.resx">
+      <DependentUpon>crearpedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crearprooveedor.resx">
+      <DependentUpon>crearprooveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crearusuarios.resx">
+      <DependentUpon>crearusuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Login.resx">
       <DependentUpon>Frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -86,6 +146,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="tallermecanicoDataSet.xsc">
+      <DependentUpon>tallermecanicoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="tallermecanicoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tallermecanicoDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tallermecanicoDataSet.xss">
+      <DependentUpon>tallermecanicoDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
