@@ -39,22 +39,21 @@
             this.usuarioTableAdapter = new Taller_Mecanico.tallermecanicoDataSetTableAdapters.usuarioTableAdapter();
             this.tableAdapterManager = new Taller_Mecanico.tallermecanicoDataSetTableAdapters.TableAdapterManager();
             this.usuarioBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.usuarioBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.usuarioTextBox = new System.Windows.Forms.TextBox();
             this.contrasenaTextBox = new System.Windows.Forms.TextBox();
             this.supervisorCheckBox = new System.Windows.Forms.CheckBox();
             this.id_departamentoComboBox = new System.Windows.Forms.ComboBox();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
-            this.usuarioBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             usuarioLabel = new System.Windows.Forms.Label();
             contrasenaLabel = new System.Windows.Forms.Label();
             supervisorLabel = new System.Windows.Forms.Label();
@@ -64,6 +63,42 @@
             ((System.ComponentModel.ISupportInitialize)(this.usuarioBindingNavigator)).BeginInit();
             this.usuarioBindingNavigator.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // usuarioLabel
+            // 
+            usuarioLabel.AutoSize = true;
+            usuarioLabel.Location = new System.Drawing.Point(52, 51);
+            usuarioLabel.Name = "usuarioLabel";
+            usuarioLabel.Size = new System.Drawing.Size(59, 17);
+            usuarioLabel.TabIndex = 1;
+            usuarioLabel.Text = "usuario:";
+            // 
+            // contrasenaLabel
+            // 
+            contrasenaLabel.AutoSize = true;
+            contrasenaLabel.Location = new System.Drawing.Point(52, 79);
+            contrasenaLabel.Name = "contrasenaLabel";
+            contrasenaLabel.Size = new System.Drawing.Size(83, 17);
+            contrasenaLabel.TabIndex = 3;
+            contrasenaLabel.Text = "contrasena:";
+            // 
+            // supervisorLabel
+            // 
+            supervisorLabel.AutoSize = true;
+            supervisorLabel.Location = new System.Drawing.Point(52, 109);
+            supervisorLabel.Name = "supervisorLabel";
+            supervisorLabel.Size = new System.Drawing.Size(78, 17);
+            supervisorLabel.TabIndex = 5;
+            supervisorLabel.Text = "supervisor:";
+            // 
+            // id_departamentoLabel
+            // 
+            id_departamentoLabel.AutoSize = true;
+            id_departamentoLabel.Location = new System.Drawing.Point(52, 137);
+            id_departamentoLabel.Name = "id_departamentoLabel";
+            id_departamentoLabel.Size = new System.Drawing.Size(115, 17);
+            id_departamentoLabel.TabIndex = 7;
+            id_departamentoLabel.Text = "id departamento:";
             // 
             // tallermecanicoDataSet
             // 
@@ -103,7 +138,7 @@
             this.usuarioBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
             this.usuarioBindingNavigator.BindingSource = this.usuarioBindingSource;
             this.usuarioBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.usuarioBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
+            this.usuarioBindingNavigator.DeleteItem = null;
             this.usuarioBindingNavigator.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.usuarioBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
@@ -116,7 +151,6 @@
             this.bindingNavigatorMoveLastItem,
             this.bindingNavigatorSeparator2,
             this.bindingNavigatorAddNewItem,
-            this.bindingNavigatorDeleteItem,
             this.usuarioBindingNavigatorSaveItem});
             this.usuarioBindingNavigator.Location = new System.Drawing.Point(0, 0);
             this.usuarioBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
@@ -129,109 +163,6 @@
             this.usuarioBindingNavigator.TabIndex = 0;
             this.usuarioBindingNavigator.Text = "bindingNavigator1";
             // 
-            // bindingNavigatorSeparator
-            // 
-            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 27);
-            // 
-            // bindingNavigatorPositionItem
-            // 
-            this.bindingNavigatorPositionItem.AccessibleName = "Posición";
-            this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 27);
-            this.bindingNavigatorPositionItem.Text = "0";
-            this.bindingNavigatorPositionItem.ToolTipText = "Posición actual";
-            // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(48, 24);
-            this.bindingNavigatorCountItem.Text = "de {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Número total de elementos";
-            // 
-            // bindingNavigatorSeparator1
-            // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 27);
-            // 
-            // bindingNavigatorSeparator2
-            // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
-            // 
-            // usuarioLabel
-            // 
-            usuarioLabel.AutoSize = true;
-            usuarioLabel.Location = new System.Drawing.Point(52, 51);
-            usuarioLabel.Name = "usuarioLabel";
-            usuarioLabel.Size = new System.Drawing.Size(59, 17);
-            usuarioLabel.TabIndex = 1;
-            usuarioLabel.Text = "usuario:";
-            // 
-            // usuarioTextBox
-            // 
-            this.usuarioTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "usuario", true));
-            this.usuarioTextBox.Location = new System.Drawing.Point(173, 48);
-            this.usuarioTextBox.Name = "usuarioTextBox";
-            this.usuarioTextBox.Size = new System.Drawing.Size(121, 22);
-            this.usuarioTextBox.TabIndex = 2;
-            // 
-            // contrasenaLabel
-            // 
-            contrasenaLabel.AutoSize = true;
-            contrasenaLabel.Location = new System.Drawing.Point(52, 79);
-            contrasenaLabel.Name = "contrasenaLabel";
-            contrasenaLabel.Size = new System.Drawing.Size(83, 17);
-            contrasenaLabel.TabIndex = 3;
-            contrasenaLabel.Text = "contrasena:";
-            // 
-            // contrasenaTextBox
-            // 
-            this.contrasenaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "contrasena", true));
-            this.contrasenaTextBox.Location = new System.Drawing.Point(173, 76);
-            this.contrasenaTextBox.Name = "contrasenaTextBox";
-            this.contrasenaTextBox.Size = new System.Drawing.Size(121, 22);
-            this.contrasenaTextBox.TabIndex = 4;
-            this.contrasenaTextBox.UseSystemPasswordChar = true;
-            // 
-            // supervisorLabel
-            // 
-            supervisorLabel.AutoSize = true;
-            supervisorLabel.Location = new System.Drawing.Point(52, 109);
-            supervisorLabel.Name = "supervisorLabel";
-            supervisorLabel.Size = new System.Drawing.Size(78, 17);
-            supervisorLabel.TabIndex = 5;
-            supervisorLabel.Text = "supervisor:";
-            // 
-            // supervisorCheckBox
-            // 
-            this.supervisorCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.usuarioBindingSource, "supervisor", true));
-            this.supervisorCheckBox.Location = new System.Drawing.Point(173, 104);
-            this.supervisorCheckBox.Name = "supervisorCheckBox";
-            this.supervisorCheckBox.Size = new System.Drawing.Size(153, 24);
-            this.supervisorCheckBox.TabIndex = 6;
-            this.supervisorCheckBox.Text = "Es administrador";
-            this.supervisorCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // id_departamentoLabel
-            // 
-            id_departamentoLabel.AutoSize = true;
-            id_departamentoLabel.Location = new System.Drawing.Point(52, 137);
-            id_departamentoLabel.Name = "id_departamentoLabel";
-            id_departamentoLabel.Size = new System.Drawing.Size(115, 17);
-            id_departamentoLabel.TabIndex = 7;
-            id_departamentoLabel.Text = "id departamento:";
-            // 
-            // id_departamentoComboBox
-            // 
-            this.id_departamentoComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "id_departamento", true));
-            this.id_departamentoComboBox.FormattingEnabled = true;
-            this.id_departamentoComboBox.Location = new System.Drawing.Point(173, 134);
-            this.id_departamentoComboBox.Name = "id_departamentoComboBox";
-            this.id_departamentoComboBox.Size = new System.Drawing.Size(121, 24);
-            this.id_departamentoComboBox.TabIndex = 8;
-            // 
             // bindingNavigatorAddNewItem
             // 
             this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -241,14 +172,12 @@
             this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorAddNewItem.Text = "Agregar nuevo";
             // 
-            // bindingNavigatorDeleteItem
+            // bindingNavigatorCountItem
             // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorDeleteItem.Text = "Eliminar";
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(48, 24);
+            this.bindingNavigatorCountItem.Text = "de {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Número total de elementos";
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -268,6 +197,26 @@
             this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorMovePreviousItem.Text = "Mover anterior";
             // 
+            // bindingNavigatorSeparator
+            // 
+            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 27);
+            // 
+            // bindingNavigatorPositionItem
+            // 
+            this.bindingNavigatorPositionItem.AccessibleName = "Posición";
+            this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 27);
+            this.bindingNavigatorPositionItem.Text = "0";
+            this.bindingNavigatorPositionItem.ToolTipText = "Posición actual";
+            // 
+            // bindingNavigatorSeparator1
+            // 
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 27);
+            // 
             // bindingNavigatorMoveNextItem
             // 
             this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -286,6 +235,11 @@
             this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorMoveLastItem.Text = "Mover último";
             // 
+            // bindingNavigatorSeparator2
+            // 
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
+            // 
             // usuarioBindingNavigatorSaveItem
             // 
             this.usuarioBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -294,6 +248,42 @@
             this.usuarioBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
             this.usuarioBindingNavigatorSaveItem.Text = "Guardar datos";
             this.usuarioBindingNavigatorSaveItem.Click += new System.EventHandler(this.usuarioBindingNavigatorSaveItem_Click);
+            // 
+            // usuarioTextBox
+            // 
+            this.usuarioTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "usuario", true));
+            this.usuarioTextBox.Location = new System.Drawing.Point(173, 48);
+            this.usuarioTextBox.Name = "usuarioTextBox";
+            this.usuarioTextBox.Size = new System.Drawing.Size(121, 22);
+            this.usuarioTextBox.TabIndex = 2;
+            // 
+            // contrasenaTextBox
+            // 
+            this.contrasenaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "contrasena", true));
+            this.contrasenaTextBox.Location = new System.Drawing.Point(173, 76);
+            this.contrasenaTextBox.Name = "contrasenaTextBox";
+            this.contrasenaTextBox.Size = new System.Drawing.Size(121, 22);
+            this.contrasenaTextBox.TabIndex = 4;
+            this.contrasenaTextBox.UseSystemPasswordChar = true;
+            // 
+            // supervisorCheckBox
+            // 
+            this.supervisorCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.usuarioBindingSource, "supervisor", true));
+            this.supervisorCheckBox.Location = new System.Drawing.Point(173, 104);
+            this.supervisorCheckBox.Name = "supervisorCheckBox";
+            this.supervisorCheckBox.Size = new System.Drawing.Size(153, 24);
+            this.supervisorCheckBox.TabIndex = 6;
+            this.supervisorCheckBox.Text = "Es administrador";
+            this.supervisorCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // id_departamentoComboBox
+            // 
+            this.id_departamentoComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "id_departamento", true));
+            this.id_departamentoComboBox.FormattingEnabled = true;
+            this.id_departamentoComboBox.Location = new System.Drawing.Point(173, 134);
+            this.id_departamentoComboBox.Name = "id_departamentoComboBox";
+            this.id_departamentoComboBox.Size = new System.Drawing.Size(121, 24);
+            this.id_departamentoComboBox.TabIndex = 8;
             // 
             // crearusuarios
             // 
@@ -331,7 +321,6 @@
         private System.Windows.Forms.BindingNavigator usuarioBindingNavigator;
         private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;

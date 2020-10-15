@@ -41,3 +41,7 @@ D:\Usuarios\Emanuel\Documentos\github\prog_bd_proyecto_mecanico\Taller_Mecanico\
 D:\Usuarios\Emanuel\Documentos\github\prog_bd_proyecto_mecanico\Taller_Mecanico\Taller_Mecanico\bin\Debug\System.Numerics.Vectors.dll
 D:\Usuarios\Emanuel\Documentos\github\prog_bd_proyecto_mecanico\Taller_Mecanico\Taller_Mecanico\bin\Debug\MySql.Data.xml
 D:\Usuarios\Emanuel\Documentos\github\prog_bd_proyecto_mecanico\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.crearprooveedor.resources
+D:\Usuarios\Emanuel\Documentos\github\prog_bd_proyecto_mecanico\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.agregarcliente.resources
+D:\Usuarios\Emanuel\Documentos\github\prog_bd_proyecto_mecanico\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.crearinsumos.resources
+D:\Usuarios\Emanuel\Documentos\github\prog_bd_proyecto_mecanico\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.crearpedido.resources
+D:\Usuarios\Emanuel\Documentos\github\prog_bd_proyecto_mecanico\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.crearusuarios.resources

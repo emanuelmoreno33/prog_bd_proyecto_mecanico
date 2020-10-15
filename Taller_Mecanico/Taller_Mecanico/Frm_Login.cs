@@ -78,8 +78,9 @@ namespace Taller_Mecanico
                 }
                 MyConn2.Close();
             }
-            catch
+            catch(Exception ex)
             {
+                MessageBox.Show(ex.Message);
                 registros[0] = 0;
                 registros[1] = 0;
                 registros[2] = 0;
