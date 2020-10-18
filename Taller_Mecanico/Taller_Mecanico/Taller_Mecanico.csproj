@@ -101,6 +101,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\Departamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Departamento.Designer.cs">
+      <DependentUpon>Departamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\MarcaDeAutomovil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\MarcaDeAutomovil.Designer.cs">
+      <DependentUpon>MarcaDeAutomovil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Proveedor.Designer.cs">
+      <DependentUpon>Proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Servicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Servicio.Designer.cs">
+      <DependentUpon>Servicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TipoDeServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\TipoDeServicio.Designer.cs">
+      <DependentUpon>TipoDeServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Usuario.Designer.cs">
+      <DependentUpon>Usuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="agregarcliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -145,11 +181,32 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tallermecanicoDataSet.cs">
+      <DependentUpon>tallermecanicoDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="tallermecanicoDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>tallermecanicoDataSet.xsd</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Admin\Departamento.resx">
+      <DependentUpon>Departamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\MarcaDeAutomovil.resx">
+      <DependentUpon>MarcaDeAutomovil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Proveedor.resx">
+      <DependentUpon>Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Servicio.resx">
+      <DependentUpon>Servicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\TipoDeServicio.resx">
+      <DependentUpon>TipoDeServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Usuario.resx">
+      <DependentUpon>Usuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="agregarcliente.resx">
       <DependentUpon>agregarcliente.cs</DependentUpon>
     </EmbeddedResource>
