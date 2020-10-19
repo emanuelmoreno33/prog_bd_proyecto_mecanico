@@ -62,6 +62,24 @@
     <Compile Include="agregarcliente.Designer.cs">
       <DependentUpon>agregarcliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="consultapedida1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultapedida1.Designer.cs">
+      <DependentUpon>consultapedida1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultapedida4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultapedida4.Designer.cs">
+      <DependentUpon>consultapedida4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultaspedida10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultaspedida10.Designer.cs">
+      <DependentUpon>consultaspedida10.cs</DependentUpon>
+    </Compile>
     <Compile Include="crearinsumos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +125,15 @@
     </Compile>
     <EmbeddedResource Include="agregarcliente.resx">
       <DependentUpon>agregarcliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultapedida1.resx">
+      <DependentUpon>consultapedida1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultapedida4.resx">
+      <DependentUpon>consultapedida4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultaspedida10.resx">
+      <DependentUpon>consultaspedida10.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="crearinsumos.resx">
       <DependentUpon>crearinsumos.cs</DependentUpon>

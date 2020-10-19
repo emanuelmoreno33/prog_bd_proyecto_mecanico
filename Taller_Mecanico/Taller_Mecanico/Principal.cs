@@ -28,7 +28,8 @@ namespace Taller_Mecanico
 
         private void crearPedidosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            crearpedido pedido = new crearpedido();
+            pedido.ShowDialog(ref idusuario);
         }
         //editar pedidos
         private void editarPedidosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -134,6 +135,76 @@ namespace Taller_Mecanico
         private void editarToolStripMenuItem6_Click(object sender, EventArgs e)
         {
 
+        }
+        //consulta 10
+        private void trabajadorConMasGarantiasAplicadasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            consultaspedida10 consulta = new consultaspedida10();
+            int valor = 10;
+            consulta.ShowDialog(ref valor);
+        }
+        //consulta 1
+        private void clienteConMayorFrecuenciaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            consultapedida1 consulta = new consultapedida1();
+            int valor = 1;
+            consulta.ShowDialog(ref valor);
+        }
+        //consulta 2
+        private void ventasObtenidasDeDiagnosticoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            consultaspedida10 consulta = new consultaspedida10();
+            int valor = 2;
+            consulta.ShowDialog(ref valor);
+        }
+        //consulta 3
+        private void empleadoConMayorVentaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            consultapedida1 consulta = new consultapedida1();
+            int valor = 3;
+            consulta.ShowDialog(ref valor);
+        }
+        //consulta 4
+        private void reparacionesMasConcurrentesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            consultapedida4 consulta = new consultapedida4();
+            int valor = 4;
+            consulta.ShowDialog(ref valor);
+        }
+        //consulta 5
+        private void departamentoConMasAfluenciaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            consultapedida1 consulta = new consultapedida1();
+            int valor = 5;
+            consulta.ShowDialog(ref valor);
+        }
+        //consulta 6
+        private void consumoDeRefaccionesPorDepartamentoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            consultapedida4 consulta = new consultapedida4();
+            int valor = 6;
+            consulta.ShowDialog(ref valor);
+        }
+        //consulta 7
+        private void caracteristicasDeLosAutomovilesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            consultapedida1 consulta = new consultapedida1();
+            int valor = 7;
+            consulta.ShowDialog(ref valor);
+        }
+        //consulta 8
+        private void clienteConMayorGastoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            consultaspedida10 consulta = new consultaspedida10();
+            int valor = 8;
+            consulta.ShowDialog(ref valor);
+        }
+        //consulta 9
+        private void refaccionMasVendidaYSuGananciaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            consultaspedida10 consulta = new consultaspedida10();
+            int valor = 9;
+            consulta.ShowDialog(ref valor);
         }
     }
 }

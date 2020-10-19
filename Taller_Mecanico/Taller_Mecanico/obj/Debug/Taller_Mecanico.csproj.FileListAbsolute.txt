@@ -45,3 +45,6 @@ D:\Usuarios\Emanuel\Documentos\github\prog_bd_proyecto_mecanico\Taller_Mecanico\
 D:\Usuarios\Emanuel\Documentos\github\prog_bd_proyecto_mecanico\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.crearinsumos.resources
 D:\Usuarios\Emanuel\Documentos\github\prog_bd_proyecto_mecanico\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.crearpedido.resources
 D:\Usuarios\Emanuel\Documentos\github\prog_bd_proyecto_mecanico\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.crearusuarios.resources
+D:\Usuarios\Emanuel\Documentos\github\prog_bd_proyecto_mecanico\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.consultaspedida10.resources
+D:\Usuarios\Emanuel\Documentos\github\prog_bd_proyecto_mecanico\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.consultapedida1.resources
+D:\Usuarios\Emanuel\Documentos\github\prog_bd_proyecto_mecanico\Taller_Mecanico\Taller_Mecanico\obj\Debug\Taller_Mecanico.consultapedida4.resources
