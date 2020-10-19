@@ -42,6 +42,16 @@
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vistasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasPedidasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clienteConMayorFrecuenciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ventasObtenidasDeDiagnosticoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.empleadoConMayorVentaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reparacionesMasConcurrentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.departamentoConMasAfluenciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consumoDeRefaccionesPorDepartamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.caracteristicasDeLosAutomovilesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clienteConMayorGastoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.refaccionMasVendidaYSuGananciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.trabajadorConMasGarantiasAplicadasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.administracionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.prooveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -103,21 +113,21 @@
             // crearPedidosToolStripMenuItem
             // 
             this.crearPedidosToolStripMenuItem.Name = "crearPedidosToolStripMenuItem";
-            this.crearPedidosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.crearPedidosToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.crearPedidosToolStripMenuItem.Text = "Crear pedidos";
             this.crearPedidosToolStripMenuItem.Click += new System.EventHandler(this.crearPedidosToolStripMenuItem_Click);
             // 
             // editarPedidosToolStripMenuItem
             // 
             this.editarPedidosToolStripMenuItem.Name = "editarPedidosToolStripMenuItem";
-            this.editarPedidosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.editarPedidosToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.editarPedidosToolStripMenuItem.Text = "Editar pedidos";
             this.editarPedidosToolStripMenuItem.Click += new System.EventHandler(this.editarPedidosToolStripMenuItem_Click);
             // 
             // verPedidosToolStripMenuItem
             // 
             this.verPedidosToolStripMenuItem.Name = "verPedidosToolStripMenuItem";
-            this.verPedidosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.verPedidosToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.verPedidosToolStripMenuItem.Text = "Ver pedidos";
             this.verPedidosToolStripMenuItem.Click += new System.EventHandler(this.verPedidosToolStripMenuItem_Click);
             // 
@@ -133,14 +143,14 @@
             // agregaClientesToolStripMenuItem
             // 
             this.agregaClientesToolStripMenuItem.Name = "agregaClientesToolStripMenuItem";
-            this.agregaClientesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.agregaClientesToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
             this.agregaClientesToolStripMenuItem.Text = "Agrega clientes";
             this.agregaClientesToolStripMenuItem.Click += new System.EventHandler(this.agregaClientesToolStripMenuItem_Click);
             // 
             // verClientesToolStripMenuItem
             // 
             this.verClientesToolStripMenuItem.Name = "verClientesToolStripMenuItem";
-            this.verClientesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.verClientesToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
             this.verClientesToolStripMenuItem.Text = "Editar clientes";
             this.verClientesToolStripMenuItem.Click += new System.EventHandler(this.verClientesToolStripMenuItem_Click);
             // 
@@ -156,14 +166,14 @@
             // agregarInsumosToolStripMenuItem
             // 
             this.agregarInsumosToolStripMenuItem.Name = "agregarInsumosToolStripMenuItem";
-            this.agregarInsumosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.agregarInsumosToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.agregarInsumosToolStripMenuItem.Text = "Agregar insumos";
             this.agregarInsumosToolStripMenuItem.Click += new System.EventHandler(this.agregarInsumosToolStripMenuItem_Click);
             // 
             // editarInsumosToolStripMenuItem
             // 
             this.editarInsumosToolStripMenuItem.Name = "editarInsumosToolStripMenuItem";
-            this.editarInsumosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.editarInsumosToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.editarInsumosToolStripMenuItem.Text = "Editar insumos";
             this.editarInsumosToolStripMenuItem.Click += new System.EventHandler(this.editarInsumosToolStripMenuItem_Click);
             // 
@@ -184,9 +194,90 @@
             // 
             // consultasPedidasToolStripMenuItem
             // 
+            this.consultasPedidasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.clienteConMayorFrecuenciaToolStripMenuItem,
+            this.ventasObtenidasDeDiagnosticoToolStripMenuItem,
+            this.empleadoConMayorVentaToolStripMenuItem,
+            this.reparacionesMasConcurrentesToolStripMenuItem,
+            this.departamentoConMasAfluenciaToolStripMenuItem,
+            this.consumoDeRefaccionesPorDepartamentoToolStripMenuItem,
+            this.caracteristicasDeLosAutomovilesToolStripMenuItem,
+            this.clienteConMayorGastoToolStripMenuItem,
+            this.refaccionMasVendidaYSuGananciaToolStripMenuItem,
+            this.trabajadorConMasGarantiasAplicadasToolStripMenuItem});
             this.consultasPedidasToolStripMenuItem.Name = "consultasPedidasToolStripMenuItem";
             this.consultasPedidasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.consultasPedidasToolStripMenuItem.Text = "Consultas pedidas";
+            // 
+            // clienteConMayorFrecuenciaToolStripMenuItem
+            // 
+            this.clienteConMayorFrecuenciaToolStripMenuItem.Name = "clienteConMayorFrecuenciaToolStripMenuItem";
+            this.clienteConMayorFrecuenciaToolStripMenuItem.Size = new System.Drawing.Size(380, 26);
+            this.clienteConMayorFrecuenciaToolStripMenuItem.Text = "Cliente con mayor frecuencia";
+            this.clienteConMayorFrecuenciaToolStripMenuItem.Click += new System.EventHandler(this.clienteConMayorFrecuenciaToolStripMenuItem_Click);
+            // 
+            // ventasObtenidasDeDiagnosticoToolStripMenuItem
+            // 
+            this.ventasObtenidasDeDiagnosticoToolStripMenuItem.Name = "ventasObtenidasDeDiagnosticoToolStripMenuItem";
+            this.ventasObtenidasDeDiagnosticoToolStripMenuItem.Size = new System.Drawing.Size(380, 26);
+            this.ventasObtenidasDeDiagnosticoToolStripMenuItem.Text = "Ventas obtenidas de diagnostico";
+            this.ventasObtenidasDeDiagnosticoToolStripMenuItem.Click += new System.EventHandler(this.ventasObtenidasDeDiagnosticoToolStripMenuItem_Click);
+            // 
+            // empleadoConMayorVentaToolStripMenuItem
+            // 
+            this.empleadoConMayorVentaToolStripMenuItem.Name = "empleadoConMayorVentaToolStripMenuItem";
+            this.empleadoConMayorVentaToolStripMenuItem.Size = new System.Drawing.Size(380, 26);
+            this.empleadoConMayorVentaToolStripMenuItem.Text = "Empleado con mayor venta";
+            this.empleadoConMayorVentaToolStripMenuItem.Click += new System.EventHandler(this.empleadoConMayorVentaToolStripMenuItem_Click);
+            // 
+            // reparacionesMasConcurrentesToolStripMenuItem
+            // 
+            this.reparacionesMasConcurrentesToolStripMenuItem.Name = "reparacionesMasConcurrentesToolStripMenuItem";
+            this.reparacionesMasConcurrentesToolStripMenuItem.Size = new System.Drawing.Size(380, 26);
+            this.reparacionesMasConcurrentesToolStripMenuItem.Text = "Reparaciones mas concurrentes";
+            this.reparacionesMasConcurrentesToolStripMenuItem.Click += new System.EventHandler(this.reparacionesMasConcurrentesToolStripMenuItem_Click);
+            // 
+            // departamentoConMasAfluenciaToolStripMenuItem
+            // 
+            this.departamentoConMasAfluenciaToolStripMenuItem.Name = "departamentoConMasAfluenciaToolStripMenuItem";
+            this.departamentoConMasAfluenciaToolStripMenuItem.Size = new System.Drawing.Size(380, 26);
+            this.departamentoConMasAfluenciaToolStripMenuItem.Text = "Departamento con mas afluencia";
+            this.departamentoConMasAfluenciaToolStripMenuItem.Click += new System.EventHandler(this.departamentoConMasAfluenciaToolStripMenuItem_Click);
+            // 
+            // consumoDeRefaccionesPorDepartamentoToolStripMenuItem
+            // 
+            this.consumoDeRefaccionesPorDepartamentoToolStripMenuItem.Name = "consumoDeRefaccionesPorDepartamentoToolStripMenuItem";
+            this.consumoDeRefaccionesPorDepartamentoToolStripMenuItem.Size = new System.Drawing.Size(380, 26);
+            this.consumoDeRefaccionesPorDepartamentoToolStripMenuItem.Text = "Consumo de refacciones por departamento";
+            this.consumoDeRefaccionesPorDepartamentoToolStripMenuItem.Click += new System.EventHandler(this.consumoDeRefaccionesPorDepartamentoToolStripMenuItem_Click);
+            // 
+            // caracteristicasDeLosAutomovilesToolStripMenuItem
+            // 
+            this.caracteristicasDeLosAutomovilesToolStripMenuItem.Name = "caracteristicasDeLosAutomovilesToolStripMenuItem";
+            this.caracteristicasDeLosAutomovilesToolStripMenuItem.Size = new System.Drawing.Size(380, 26);
+            this.caracteristicasDeLosAutomovilesToolStripMenuItem.Text = "Caracteristicas de los automoviles";
+            this.caracteristicasDeLosAutomovilesToolStripMenuItem.Click += new System.EventHandler(this.caracteristicasDeLosAutomovilesToolStripMenuItem_Click);
+            // 
+            // clienteConMayorGastoToolStripMenuItem
+            // 
+            this.clienteConMayorGastoToolStripMenuItem.Name = "clienteConMayorGastoToolStripMenuItem";
+            this.clienteConMayorGastoToolStripMenuItem.Size = new System.Drawing.Size(380, 26);
+            this.clienteConMayorGastoToolStripMenuItem.Text = "Cliente con mayor gasto";
+            this.clienteConMayorGastoToolStripMenuItem.Click += new System.EventHandler(this.clienteConMayorGastoToolStripMenuItem_Click);
+            // 
+            // refaccionMasVendidaYSuGananciaToolStripMenuItem
+            // 
+            this.refaccionMasVendidaYSuGananciaToolStripMenuItem.Name = "refaccionMasVendidaYSuGananciaToolStripMenuItem";
+            this.refaccionMasVendidaYSuGananciaToolStripMenuItem.Size = new System.Drawing.Size(380, 26);
+            this.refaccionMasVendidaYSuGananciaToolStripMenuItem.Text = "Refaccion mas vendida y su ganancia";
+            this.refaccionMasVendidaYSuGananciaToolStripMenuItem.Click += new System.EventHandler(this.refaccionMasVendidaYSuGananciaToolStripMenuItem_Click);
+            // 
+            // trabajadorConMasGarantiasAplicadasToolStripMenuItem
+            // 
+            this.trabajadorConMasGarantiasAplicadasToolStripMenuItem.Name = "trabajadorConMasGarantiasAplicadasToolStripMenuItem";
+            this.trabajadorConMasGarantiasAplicadasToolStripMenuItem.Size = new System.Drawing.Size(380, 26);
+            this.trabajadorConMasGarantiasAplicadasToolStripMenuItem.Text = "Trabajador con mas garantias aplicadas";
+            this.trabajadorConMasGarantiasAplicadasToolStripMenuItem.Click += new System.EventHandler(this.trabajadorConMasGarantiasAplicadasToolStripMenuItem_Click);
             // 
             // administracionToolStripMenuItem
             // 
@@ -207,27 +298,27 @@
             this.editarToolStripMenuItem,
             this.verToolStripMenuItem});
             this.prooveedoresToolStripMenuItem.Name = "prooveedoresToolStripMenuItem";
-            this.prooveedoresToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.prooveedoresToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
             this.prooveedoresToolStripMenuItem.Text = "Prooveedores";
             // 
             // agregarToolStripMenuItem
             // 
             this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
-            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.agregarToolStripMenuItem.Text = "Agregar";
             this.agregarToolStripMenuItem.Click += new System.EventHandler(this.agregarToolStripMenuItem_Click);
             // 
             // editarToolStripMenuItem
             // 
             this.editarToolStripMenuItem.Name = "editarToolStripMenuItem";
-            this.editarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.editarToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.editarToolStripMenuItem.Text = "Editar";
             this.editarToolStripMenuItem.Click += new System.EventHandler(this.editarToolStripMenuItem_Click);
             // 
             // verToolStripMenuItem
             // 
             this.verToolStripMenuItem.Name = "verToolStripMenuItem";
-            this.verToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.verToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.verToolStripMenuItem.Text = "Ver";
             // 
             // departamentosToolStripMenuItem
@@ -237,27 +328,27 @@
             this.editarToolStripMenuItem1,
             this.verToolStripMenuItem1});
             this.departamentosToolStripMenuItem.Name = "departamentosToolStripMenuItem";
-            this.departamentosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.departamentosToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
             this.departamentosToolStripMenuItem.Text = "Departamentos";
             // 
             // agregarToolStripMenuItem1
             // 
             this.agregarToolStripMenuItem1.Name = "agregarToolStripMenuItem1";
-            this.agregarToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.agregarToolStripMenuItem1.Size = new System.Drawing.Size(146, 26);
             this.agregarToolStripMenuItem1.Text = "Agregar";
             this.agregarToolStripMenuItem1.Click += new System.EventHandler(this.agregarToolStripMenuItem1_Click);
             // 
             // editarToolStripMenuItem1
             // 
             this.editarToolStripMenuItem1.Name = "editarToolStripMenuItem1";
-            this.editarToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.editarToolStripMenuItem1.Size = new System.Drawing.Size(146, 26);
             this.editarToolStripMenuItem1.Text = "Editar";
             this.editarToolStripMenuItem1.Click += new System.EventHandler(this.editarToolStripMenuItem1_Click);
             // 
             // verToolStripMenuItem1
             // 
             this.verToolStripMenuItem1.Name = "verToolStripMenuItem1";
-            this.verToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.verToolStripMenuItem1.Size = new System.Drawing.Size(146, 26);
             this.verToolStripMenuItem1.Text = "Ver";
             // 
             // usuariosToolStripMenuItem
@@ -269,7 +360,7 @@
             this.editarAdministradoresToolStripMenuItem,
             this.cambiarContaseñaToolStripMenuItem});
             this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
             this.usuariosToolStripMenuItem.Text = "Usuarios";
             // 
             // agregarToolStripMenuItem2
@@ -311,27 +402,27 @@
             this.editarToolStripMenuItem3,
             this.verToolStripMenuItem3});
             this.marcasDeAutoToolStripMenuItem.Name = "marcasDeAutoToolStripMenuItem";
-            this.marcasDeAutoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.marcasDeAutoToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
             this.marcasDeAutoToolStripMenuItem.Text = "Marcas de auto";
             // 
             // agregarToolStripMenuItem3
             // 
             this.agregarToolStripMenuItem3.Name = "agregarToolStripMenuItem3";
-            this.agregarToolStripMenuItem3.Size = new System.Drawing.Size(224, 26);
+            this.agregarToolStripMenuItem3.Size = new System.Drawing.Size(146, 26);
             this.agregarToolStripMenuItem3.Text = "Agregar";
             this.agregarToolStripMenuItem3.Click += new System.EventHandler(this.agregarToolStripMenuItem3_Click);
             // 
             // editarToolStripMenuItem3
             // 
             this.editarToolStripMenuItem3.Name = "editarToolStripMenuItem3";
-            this.editarToolStripMenuItem3.Size = new System.Drawing.Size(224, 26);
+            this.editarToolStripMenuItem3.Size = new System.Drawing.Size(146, 26);
             this.editarToolStripMenuItem3.Text = "Editar";
             this.editarToolStripMenuItem3.Click += new System.EventHandler(this.editarToolStripMenuItem3_Click);
             // 
             // verToolStripMenuItem3
             // 
             this.verToolStripMenuItem3.Name = "verToolStripMenuItem3";
-            this.verToolStripMenuItem3.Size = new System.Drawing.Size(224, 26);
+            this.verToolStripMenuItem3.Size = new System.Drawing.Size(146, 26);
             this.verToolStripMenuItem3.Text = "Ver";
             // 
             // servicioToolStripMenuItem1
@@ -342,26 +433,26 @@
             this.verToolStripMenuItem4,
             this.tipoDeServicioToolStripMenuItem});
             this.servicioToolStripMenuItem1.Name = "servicioToolStripMenuItem1";
-            this.servicioToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.servicioToolStripMenuItem1.Size = new System.Drawing.Size(195, 26);
             this.servicioToolStripMenuItem1.Text = "Servicio";
             // 
             // agregarToolStripMenuItem4
             // 
             this.agregarToolStripMenuItem4.Name = "agregarToolStripMenuItem4";
-            this.agregarToolStripMenuItem4.Size = new System.Drawing.Size(224, 26);
+            this.agregarToolStripMenuItem4.Size = new System.Drawing.Size(197, 26);
             this.agregarToolStripMenuItem4.Text = "Agregar";
             // 
             // editarToolStripMenuItem4
             // 
             this.editarToolStripMenuItem4.Name = "editarToolStripMenuItem4";
-            this.editarToolStripMenuItem4.Size = new System.Drawing.Size(224, 26);
+            this.editarToolStripMenuItem4.Size = new System.Drawing.Size(197, 26);
             this.editarToolStripMenuItem4.Text = "Editar";
             this.editarToolStripMenuItem4.Click += new System.EventHandler(this.editarToolStripMenuItem4_Click);
             // 
             // verToolStripMenuItem4
             // 
             this.verToolStripMenuItem4.Name = "verToolStripMenuItem4";
-            this.verToolStripMenuItem4.Size = new System.Drawing.Size(224, 26);
+            this.verToolStripMenuItem4.Size = new System.Drawing.Size(197, 26);
             this.verToolStripMenuItem4.Text = "Ver";
             // 
             // tipoDeServicioToolStripMenuItem
@@ -371,25 +462,25 @@
             this.editarToolStripMenuItem5,
             this.verToolStripMenuItem5});
             this.tipoDeServicioToolStripMenuItem.Name = "tipoDeServicioToolStripMenuItem";
-            this.tipoDeServicioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.tipoDeServicioToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
             this.tipoDeServicioToolStripMenuItem.Text = "Tipo de servicio";
             // 
             // agregarToolStripMenuItem5
             // 
             this.agregarToolStripMenuItem5.Name = "agregarToolStripMenuItem5";
-            this.agregarToolStripMenuItem5.Size = new System.Drawing.Size(224, 26);
+            this.agregarToolStripMenuItem5.Size = new System.Drawing.Size(146, 26);
             this.agregarToolStripMenuItem5.Text = "Agregar";
             // 
             // editarToolStripMenuItem5
             // 
             this.editarToolStripMenuItem5.Name = "editarToolStripMenuItem5";
-            this.editarToolStripMenuItem5.Size = new System.Drawing.Size(224, 26);
+            this.editarToolStripMenuItem5.Size = new System.Drawing.Size(146, 26);
             this.editarToolStripMenuItem5.Text = "Editar";
             // 
             // verToolStripMenuItem5
             // 
             this.verToolStripMenuItem5.Name = "verToolStripMenuItem5";
-            this.verToolStripMenuItem5.Size = new System.Drawing.Size(224, 26);
+            this.verToolStripMenuItem5.Size = new System.Drawing.Size(146, 26);
             this.verToolStripMenuItem5.Text = "Ver";
             // 
             // statusStrip1
@@ -476,5 +567,15 @@
         private System.Windows.Forms.ToolStripMenuItem verToolStripMenuItem5;
         private System.Windows.Forms.ToolStripMenuItem verPedidosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cambiarContaseñaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem clienteConMayorFrecuenciaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ventasObtenidasDeDiagnosticoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem empleadoConMayorVentaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reparacionesMasConcurrentesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem departamentoConMasAfluenciaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consumoDeRefaccionesPorDepartamentoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem caracteristicasDeLosAutomovilesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem clienteConMayorGastoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem refaccionMasVendidaYSuGananciaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem trabajadorConMasGarantiasAplicadasToolStripMenuItem;
     }
 }
