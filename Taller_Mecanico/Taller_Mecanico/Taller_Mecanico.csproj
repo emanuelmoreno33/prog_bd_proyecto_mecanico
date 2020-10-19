@@ -179,6 +179,24 @@
     <Compile Include="crearprooveedor.Designer.cs">
       <DependentUpon>crearprooveedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="crearproveedorinsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crearproveedorinsumo.Designer.cs">
+      <DependentUpon>crearproveedorinsumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crearrefacciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crearrefacciones.Designer.cs">
+      <DependentUpon>crearrefacciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crearservicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crearservicio.Designer.cs">
+      <DependentUpon>crearservicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="crearusuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -245,6 +263,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="crearprooveedor.resx">
       <DependentUpon>crearprooveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crearproveedorinsumo.resx">
+      <DependentUpon>crearproveedorinsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crearrefacciones.resx">
+      <DependentUpon>crearrefacciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crearservicio.resx">
+      <DependentUpon>crearservicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="crearusuarios.resx">
       <DependentUpon>crearusuarios.cs</DependentUpon>

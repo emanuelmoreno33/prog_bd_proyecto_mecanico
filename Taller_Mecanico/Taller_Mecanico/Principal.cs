@@ -34,7 +34,8 @@ namespace Taller_Mecanico
         //editar pedidos
         private void editarPedidosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            crearservicio servicio = new crearservicio();
+            servicio.ShowDialog();
         }
         //crear proveedores
         private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -47,13 +48,11 @@ namespace Taller_Mecanico
         {
             if(admin==0)
             {
-                verClientesToolStripMenuItem.Visible = false;
                 insumosToolStripMenuItem.Visible = false;
                 administracionToolStripMenuItem.Visible = false;
             }
             else
             {
-                verClientesToolStripMenuItem.Visible = true;
                 insumosToolStripMenuItem.Visible = true;
                 administracionToolStripMenuItem.Visible = true;
             }
@@ -84,12 +83,14 @@ namespace Taller_Mecanico
         //crear clientes
         private void agregaClientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            agregarcliente cliente = new agregarcliente();
+            cliente.ShowDialog();
         }
         //crear insumos
         private void agregarInsumosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            crearinsumos insumos = new crearinsumos();
+            insumos.ShowDialog();
         }
         //ver pedidos
         private void verPedidosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -205,6 +206,54 @@ namespace Taller_Mecanico
             consultaspedida10 consulta = new consultaspedida10();
             int valor = 9;
             consulta.ShowDialog(ref valor);
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void agregarProveedorInsumoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            crearproveedorinsumo proveedorinsumo = new crearproveedorinsumo();
+            proveedorinsumo.ShowDialog();
+        }
+
+        private void prooveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Admin.Proveedor proveedor = new Admin.Proveedor();
+            proveedor.ShowDialog();
+
+        }
+
+        private void departamentosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Admin.Departamento departamento = new Admin.Departamento();
+            departamento.ShowDialog();
+        }
+
+        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Admin.Usuario usuario = new Admin.Usuario();
+            usuario.ShowDialog();
+        }
+
+        private void marcasDeAutoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Admin.MarcaDeAutomovil marca = new Admin.MarcaDeAutomovil();
+            marca.ShowDialog();
+        }
+
+        private void servicioToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Admin.TipoDeServicio tipo = new Admin.TipoDeServicio();
+            tipo.ShowDialog();
+        }
+
+        private void agregarRefaccionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            crearrefacciones refacciones = new crearrefacciones();
+            refacciones.ShowDialog();
         }
     }
 }
